@@ -1,0 +1,173 @@
+/*Login css*/
+.container {
+    width: 100%;
+    min-height: 100vh; 
+   
+}
+
+.form{
+    width: 500px;
+    height: 450px;
+    margin: 60px auto 0;
+    text-align: center;
+    padding: 35px;
+    /*border: 3px solid #fb8c00;*/
+    border: 3px solid #8d6e63;
+    border-radius: 70px 0 70px 0;
+}
+
+
+
+.img-form{
+    width: 50px;
+    border-radius: 50px;
+    height: 55px;
+    position: absolute;
+    top: 5%;
+    left: 60%;
+}
+
+.img-form img{
+width: 90%;
+padding: 10px;
+border-radius: 50%;
+
+
+}
+
+
+.form h2{
+    margin-bottom: 25px;
+    font-size: 2rem;
+}
+
+input{
+width: 80%;
+height: 50px;
+border-radius: 15px 0 15px 0;
+border: 2px solid #e0e0e0; 
+margin-bottom: 15px;
+font-size: 23px;
+
+}
+
+.form p{
+    text-align: left;
+    margin-left: 49px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.btn-new{
+
+    height: 50px;
+    width: 80%;
+    background: #ffab00;
+    margin: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 17px;
+    transition: 0.4s;
+    transform-style: preserve-3d;
+    perspective: 800px;
+}
+
+.btn-new::after{
+content: '';
+position: absolute;
+background: #ffd740;
+transition: 0.4s;
+}
+
+.btn1:hover{
+transform: rotateX(-20deg);
+}
+
+.btn1:after{
+    width: 100%;
+    height: 24px;
+    top: -24px; 
+    left: 0;
+    transform-origin: 0 100%;
+    transform: rotateX(90deg);
+}
+
+.btn-text{
+    display: block;
+    height: 100%;
+    position: relative;
+    top: 0;
+    transition: top 0.6s;
+    width: 100%;
+
+}
+
+.btn:hover .btn-text{
+    top: -100%;
+}
+
+.forget{
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    font-size: 30px;
+    color: #bdbdbd
+}
+
+/*SignUp css*/
+
+.mart{
+    font-family: 'Courgette', cursive;
+    text-align: center; 
+    text-transform: uppercase;
+    color: #ffc107;
+    margin-top: 3rem;;
+}
+.pt{
+    text-align: left;
+    position: relative;
+    left: 50px;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.Sign_form{
+    width: 500px;
+    height: 750px;
+    margin: 60px auto 0;
+    text-align: center;
+    padding: 35px;
+    /*border: 3px solid #fb8c00;*/
+    border: 3px solid #8d6e63;
+    border-radius: 70px 0 70px 0;
+    color: #ffd54f ;
+}
+
+.img-form1{
+    width: 50px;
+    border-radius: 50px;
+    height: 55px;
+    position: absolute;
+    top: 16%;
+    left: 60%;
+}
+
+.img-form1 img{
+width: 90%;
+padding: 10px;
+border-radius: 50%;
+
+
+}
+
+.signinA{
+   color: #8d6e63;
+   text-decoration: none; 
+}
+/*signup*/
