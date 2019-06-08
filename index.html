@@ -3,7 +3,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--my header style-->
     <link rel="stylesheet" href="style.css" />
+    <!--font awesome-->
+    <script src="https://kit.fontawesome.com/7bdc2bf411.js"></script>
     <title>AutoMart Store</title>
   </head>
 
@@ -12,18 +15,23 @@
       <div class="container">
         <nav>
           <h1 class="brand">
-            <a href="index.html">Automart <span>App</span></a>
+            <a href="indexNav.html"> Automart <span>App</span></a>
           </h1>
-          <label for="toggle">&#9776;</label>
-          <input type="checkbox" id="toggle" />
-          <ul>
+
+          <label class="show-btn"> <i class="fas fa-ellipsis-h"></i></label>
+
+          <ul class="menu">
             <li><a href="#">Home</a></li>
             <li><a href="#">Services</a></li>
             <li><a href="SignUp.html">Signup/Signin</a></li>
             <li><a href="#">Contact</a></li>
+            <label class="hide-btn">
+              <i class="fas fa-times"></i>
+            </label>
           </ul>
         </nav>
       </div>
     </header>
+    <script src="main.js"></script>
   </body>
 </html>
